@@ -1,5 +1,5 @@
 
-#include<iostream>
+#include<stdio.h>
 
 struct dmartbill
 {
