@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 
 int main()
 {
@@ -7,7 +7,7 @@ int main()
 	int total;
 
 	printf("enter value:");
-	scanf("%[^\n]s",&str);
+	scanf("%s[^\n]s",&str);
 	
 	for(int i=0;str[i]!='\0';i++)
 	{
@@ -17,8 +17,6 @@ int main()
 	{
 		printf("str[%d]value is:%c\n",i,str[i]);
 	}
-
-     printf("total of the string:%d",total);    
 
 
 return 0;
